@@ -1,0 +1,2005 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width"/>
+        <meta charSet="utf-8"/>
+        <title>Cardinal</title>
+        <link rel="icon" href="/favicon.ico"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <meta property="og:title" content="Cardinal Rental Marketplace"/>
+        <meta name="og:description" content="Rent and Claim your favorite NFTs on Cardinal&#x27;s Rental Marketplace"/>
+        <meta name="og:image" content="https://rent.cardinal.so/api/preview"/>
+        <meta property="og:url" content="https://rent.cardinal.so"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@cardinal_labs"/>
+        <meta name="next-head-count" content="16"/>
+        <link rel="icon" href="/favicon.ico"/>
+        <link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap"/>
+        <link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Lato:wght@100&amp;display=swap"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Kanit:ital@0;1&amp;family=Oswald:wght@200;300;400;500&amp;display=swap"/>
+        <link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Karla:wght@600&amp;display=swap"/>
+        <script defer="" data-domain="rent.cardinal.so" src="https://plausible.io/js/plausible.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="preload" href="/_next/static/css/f860925f7918f17f.css" as="style"/>
+        <link rel="stylesheet" href="/_next/static/css/f860925f7918f17f.css" data-n-g=""/>
+        <noscript data-n-css=""></noscript>
+        <script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script>
+        <script src="/_next/static/chunks/webpack-b4257a6e83107375.js" defer=""></script>
+        <script src="/_next/static/chunks/framework-8b7974553b1447ee.js" defer=""></script>
+        <script src="/_next/static/chunks/main-6b74f90c561ef058.js" defer=""></script>
+        <script src="/_next/static/chunks/pages/_app-943139558af99eea.js" defer=""></script>
+        <script src="/_next/static/chunks/0c428ae2-6cc608f7939ef965.js" defer=""></script>
+        <script src="/_next/static/chunks/ae51ba48-d43aa619b5c34d1b.js" defer=""></script>
+        <script src="/_next/static/chunks/95b64a6e-de67f09b947fc82b.js" defer=""></script>
+        <script src="/_next/static/chunks/75fc9c18-28e70b5b8f839b8d.js" defer=""></script>
+        <script src="/_next/static/chunks/252f366e-2f3be3de63b0fc2b.js" defer=""></script>
+        <script src="/_next/static/chunks/257-44997346ee008d4a.js" defer=""></script>
+        <script src="/_next/static/chunks/539-6f53d53c8a0db1e4.js" defer=""></script>
+        <script src="/_next/static/chunks/93-670847157229c31f.js" defer=""></script>
+        <script src="/_next/static/chunks/97-6850ef66c2c99d66.js" defer=""></script>
+        <script src="/_next/static/chunks/27-c38cf014bd15c5a1.js" defer=""></script>
+        <script src="/_next/static/chunks/pages/%5Bhost%5D-fe3446051b5d1b72.js" defer=""></script>
+        <script src="/_next/static/rvRHpQHDOeow_Bn_u_0ms/_buildManifest.js" defer=""></script>
+        <script src="/_next/static/rvRHpQHDOeow_Bn_u_0ms/_ssgManifest.js" defer=""></script>
+        <script src="/_next/static/rvRHpQHDOeow_Bn_u_0ms/_middlewareManifest.js" defer=""></script>
+        <style data-href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5g.woff) format('woff')
+            }
+
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+        </style>
+        <style data-href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap">
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 100;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHh30wWA.woff) format('woff')
+            }
+
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 100;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHh30AUi-qNiXg7eU0.woff2) format('woff2');
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 100;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/lato/v23/S6u8w4BMUTPHh30AXC-qNiXg7Q.woff2) format('woff2');
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+        </style>
+        <style data-href="https://fonts.googleapis.com/css2?family=Kanit:ital@0;1&family=Oswald:wght@200;300;400;500&display=swap">
+            @font-face {
+                font-family: 'Kanit';
+                font-style: italic;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKX-Go6G5tXcraQGwY.woff) format('woff')
+            }
+
+            @font-face {
+                font-family: 'Kanit';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKZ-Go6G5tXcoaR.woff) format('woff')
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 200;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3_WkUHHAIjg75cFRf3bXL8LICs13FvgUI.woff) format('woff')
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3_WkUHHAIjg75cFRf3bXL8LICs169vgUI.woff) format('woff')
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUI.woff) format('woff')
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3_WkUHHAIjg75cFRf3bXL8LICs18NvgUI.woff) format('woff')
+            }
+
+            @font-face {
+                font-family: 'Kanit';
+                font-style: italic;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKX-Go6G5tXcraQKxaAcI5DPFpLGw.woff2) format('woff2');
+                unicode-range: U+0E01-0E5B,U+200C-200D,U+25CC
+            }
+
+            @font-face {
+                font-family: 'Kanit';
+                font-style: italic;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKX-Go6G5tXcraQKw2AcI5DPFpLGw.woff2) format('woff2');
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: 'Kanit';
+                font-style: italic;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKX-Go6G5tXcraQKwyAcI5DPFpLGw.woff2) format('woff2');
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: 'Kanit';
+                font-style: italic;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKX-Go6G5tXcraQKwKAcI5DPFo.woff2) format('woff2');
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: 'Kanit';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKZ-Go6G5tXcraBGwCKd6xBDFs.woff2) format('woff2');
+                unicode-range: U+0E01-0E5B,U+200C-200D,U+25CC
+            }
+
+            @font-face {
+                font-family: 'Kanit';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKZ-Go6G5tXcraaGwCKd6xBDFs.woff2) format('woff2');
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: 'Kanit';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKZ-Go6G5tXcrabGwCKd6xBDFs.woff2) format('woff2');
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: 'Kanit';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/kanit/v12/nKKZ-Go6G5tXcraVGwCKd6xB.woff2) format('woff2');
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 200;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 200;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 200;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 200;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 200;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2) format('woff2');
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 300;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2) format('woff2');
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2) format('woff2');
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2) format('woff2');
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/oswald/v49/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2) format('woff2');
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+        </style>
+        <style data-href="https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap">
+            @font-face {
+                font-family: 'Karla';
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/karla/v23/qkBIXvYC6trAT55ZBi1ueQVIjQTDJp2qFw.woff) format('woff')
+            }
+
+            @font-face {
+                font-family: 'Karla';
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/karla/v23/qkBIXvYC6trAT55ZBi1ueQVIjQTDJp2aHUlMZbLXGhmRytc.woff) format('woff');
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: 'Karla';
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/karla/v23/qkBIXvYC6trAT55ZBi1ueQVIjQTDJp2aE0lMZbLXGhmR.woff) format('woff');
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+        </style>
+    <link rel="stylesheet" href="{% static 'main/css/main.css'%}">
+    </head>
+    <body class="bg-dark-5">
+        <div id="__next" data-reactroot="">
+            <style data-emotion="css 8kzl1r">
+                .css-8kzl1r {
+                    opacity: 0;
+                    -webkit-backdrop-filter: blur(0px);
+                    backdrop-filter: blur(0px);
+                }
+            </style>
+            <div class="fixed z-50 flex h-screen w-screen justify-center overflow-scroll bg-light-0 bg-opacity-[0.05] transition-all duration-300 pointer-events-none css-8kzl1r">
+                <style data-emotion="css 1taa3we">
+                    .css-1taa3we {
+                        box-shadow: rgba(255, 255, 255, 0.15) 0px 0px 48px;
+                    }
+                </style>
+                <div class="bg-white text-dark-6 z-50 my-[10vh] h-fit w-[560px] max-w-[98vw] rounded-xl transition-all  css-1taa3we">
+                    <div class="flex w-full cursor-pointer items-center justify-end px-4 pt-4 text-dark-4 transition hover:text-medium-4">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 6L6 18" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M6 6L18 18" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="relative mx-auto h-full min-h-[200px] w-full rounded-xl px-5 text-xs">
+                        <div class="relative px-2 pb-8 md:px-8 md:pt-2">
+                            <div class="m-12 flex items-center justify-center text-2xl">Connect wallet to continue</div>
+                            <div class="text-md mx-auto flex items-center justify-center gap-1">
+                                <div>POWERED BY</div>
+                                <svg viewBox="0 0 454 70" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline-block h-3 text-black">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M37.563 22.9245L32.2137 17.618C32.1426 17.5471 32.0922 17.4581 32.0678 17.3606C32.0434 17.2632 32.0461 17.1609 32.0754 17.0648L37.3307 0.384725C37.3664 0.273028 37.4366 0.175567 37.5313 0.106416C37.6261 0.0372651 37.7403 0 37.8575 0C37.9748 0 38.0891 0.0372651 38.1838 0.106416C38.2785 0.175567 38.3487 0.273028 38.3844 0.384725L43.778 17.022C43.8073 17.118 43.81 17.2203 43.7856 17.3178C43.7612 17.4152 43.7108 17.5042 43.6397 17.5752L38.3333 22.9245C38.2301 23.0246 38.0919 23.0806 37.9481 23.0806C37.8043 23.0806 37.6662 23.0246 37.563 22.9245ZM20.0202 29.2143L3.38473 34.6079C3.27304 34.6436 3.17557 34.7139 3.10642 34.8086C3.03727 34.9033 3 35.0176 3 35.1348C3 35.2521 3.03727 35.3663 3.10642 35.461C3.17557 35.5558 3.27304 35.626 3.38473 35.6618L20.0645 40.9171C20.1606 40.9464 20.2628 40.9491 20.3603 40.9247C20.4578 40.9003 20.5467 40.8499 20.6177 40.7788L25.9241 35.428C25.9755 35.3767 26.0163 35.3156 26.0441 35.2485C26.072 35.1813 26.0863 35.1093 26.0863 35.0367C26.0863 34.964 26.072 34.892 26.0441 34.8248C26.0163 34.7576 25.9755 34.6966 25.9241 34.6453L20.5734 29.3388C20.5009 29.2698 20.411 29.2218 20.3134 29.1999C20.2157 29.1779 20.1139 29.1829 20.0188 29.2143H20.0202ZM50.0759 35.3368L55.4266 40.6432C55.4975 40.7144 55.5865 40.7648 55.684 40.7892C55.7814 40.8135 55.8837 40.8109 55.9797 40.7815L72.6153 35.3879C72.727 35.3522 72.8244 35.2819 72.8936 35.1872C72.9627 35.0925 73 34.9783 73 34.861C73 34.7437 72.9627 34.6295 72.8936 34.5348C72.8244 34.4401 72.727 34.3698 72.6153 34.3341L55.9355 29.0788C55.8394 29.0494 55.7372 29.0468 55.6397 29.0712C55.5422 29.0955 55.4533 29.146 55.3823 29.2171L50.0759 34.5678C49.9762 34.671 49.9205 34.8088 49.9205 34.9523C49.9205 35.0957 49.9762 35.2336 50.0759 35.3368ZM37.6612 47.0686L32.3548 52.4179C32.2822 52.4897 32.2309 52.5801 32.2064 52.6792C32.182 52.7783 32.1855 52.8822 32.2165 52.9794L37.61 69.6153C37.6457 69.727 37.716 69.8244 37.8107 69.8936C37.9054 69.9627 38.0196 70 38.1369 70C38.2542 70 38.3684 69.9627 38.4631 69.8936C38.5578 69.8244 38.6281 69.727 38.6638 69.6153L43.919 52.9352C43.9484 52.8391 43.951 52.7368 43.9267 52.6394C43.9023 52.5419 43.8518 52.4529 43.7807 52.382L38.4301 47.0755C38.3277 46.975 38.1902 46.9183 38.0467 46.9173C37.9033 46.9162 37.765 46.971 37.6612 47.07V47.0686Z" fill="black"></path>
+                                    <path d="M117.955 62.4578C113.288 62.4578 109.066 61.2916 105.288 58.9591C101.555 56.576 98.6219 53.3308 96.4885 49.2237C94.3552 45.0658 93.2886 40.4009 93.2886 35.2289C93.2886 30.0569 94.3552 25.4174 96.4885 21.3102C98.6219 17.1524 101.577 13.9072 105.355 11.5747C109.133 9.19158 113.355 8 118.022 8C121.666 8 124.999 8.70988 128.022 10.1296C131.044 11.4987 133.621 13.5523 135.755 16.2904L131.422 21.082C127.91 16.8735 123.533 14.7692 118.288 14.7692C114.822 14.7692 111.688 15.6565 108.888 17.4312C106.088 19.2059 103.888 21.6652 102.288 24.8089C100.733 27.902 99.9552 31.3753 99.9552 35.2289C99.9552 39.0825 100.733 42.5812 102.288 45.725C103.888 48.818 106.088 51.2519 108.888 53.0266C111.688 54.8013 114.822 55.6886 118.288 55.6886C123.488 55.6886 127.866 53.559 131.422 49.2997L135.755 54.0914C133.621 56.8295 131.022 58.9084 127.955 60.3282C124.933 61.748 121.599 62.4578 117.955 62.4578Z" fill="black"></path>
+                                    <path d="M173.41 42.4545H164.648H153.277L150.943 48.5391L145.81 61.8494H138.943L160.076 8.60846H166.676L187.876 61.8494H180.876L173.41 42.4545ZM173.41 42.4545L163.343 16.3664L153.277 42.4545H173.41Z" fill="black"></path>
+                                    <path d="M226.037 61.8494L215.971 45.4968C214.726 45.5982 213.748 45.6489 213.037 45.6489H201.504V61.8494H194.838V8.60846H213.037C219.082 8.60846 223.837 10.2564 227.304 13.5523C230.77 16.8481 232.504 21.3863 232.504 27.1667C232.504 31.2739 231.615 34.7726 229.837 37.6628C228.059 40.553 225.526 42.6573 222.237 43.9756L233.304 61.8494H226.037ZM212.837 39.184C217.06 39.184 220.282 38.1445 222.504 36.0656C224.726 33.9866 225.837 31.0203 225.837 27.1667C225.837 23.3131 224.726 20.3722 222.504 18.3439C220.282 16.265 217.06 15.2255 212.837 15.2255H201.504V39.184H212.837Z" fill="black"></path>
+                                    <path d="M243.275 8.60846H262.941C267.874 8.60846 272.252 9.72399 276.074 11.955C279.896 14.1861 282.852 17.3298 284.941 21.3863C287.074 25.392 288.141 30.0062 288.141 35.2289C288.141 40.4516 287.074 45.0912 284.941 49.1476C282.852 53.1534 279.896 56.2718 276.074 58.5028C272.252 60.7338 267.874 61.8494 262.941 61.8494H243.275V8.60846ZM262.541 55.2323C266.319 55.2323 269.63 54.3956 272.474 52.7224C275.363 51.0491 277.585 48.7166 279.141 45.725C280.696 42.6826 281.474 39.184 281.474 35.2289C281.474 31.2739 280.696 27.8005 279.141 24.8089C277.585 21.7666 275.363 19.4088 272.474 17.7355C269.63 16.0622 266.319 15.2255 262.541 15.2255H249.941V55.2323H262.541Z" fill="black"></path>
+                                    <path d="M298.352 8.60846H305.019V61.8494H298.352V8.60846Z" fill="black"></path>
+                                    <path d="M359.123 8.60846V61.8494H353.656L325.656 22.1469V61.8494H318.99V8.60846H324.456L352.456 48.311V8.60846H359.123Z" fill="black"></path>
+                                    <path d="M400.491 42.4545H380.357L372.891 61.8494H366.024L387.157 8.60846H393.757L414.957 61.8494H407.957L400.491 42.4545ZM400.491 42.4545L390.424 16.3664L380.357 42.4545H400.491Z" fill="black"></path>
+                                    <path d="M421.918 8.60846H428.585V55.2323H453.852V61.8494H421.918V8.60846Z" fill="black"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style data-emotion="css zkkdwh">
+                .css-zkkdwh {
+                    opacity: 0;
+                    -webkit-backdrop-filter: blur(0px);
+                    backdrop-filter: blur(0px);
+                }
+            </style>
+            <div class="fixed z-50 flex h-screen w-screen justify-center overflow-scroll bg-light-0 bg-opacity-[0.05] transition-all duration-300 pointer-events-none css-zkkdwh">
+                <style data-emotion="css 1pxskp3">
+                    .css-1pxskp3 {
+                        box-shadow: rgba(255, 255, 255, 0.15) 0px 0px 48px;
+                    }
+                </style>
+                <div class="undefined my-[10vh] h-fit w-[560px] max-w-[98vw] rounded-xl transition-all  css-1pxskp3"></div>
+            </div>
+            <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none"></div>
+            <div class="relative z-0 min-h-screen bg-dark-5">
+                <style data-emotion="css 188fkqd">
+                    .css-188fkqd {
+                        background: #7560FF!important;
+                    }
+                </style>
+                <div class="blur-4xl absolute left-8 top-52 -z-10 h-[120px] w-[400px] -rotate-[60deg] bg-glow blur-[100px] css-188fkqd"></div>
+                <div class="bg-dark-5">
+                    <style data-emotion="css 6s4q4v">
+                        .css-6s4q4v {
+                            background: linear-gradient(180deg, #140a51 0%, #0b0b0b 100%);
+                        }
+                    </style>
+                    <div class="relative z-0 css-6s4q4v">
+                        <div class="blur-4xl absolute left-8 top-52 -z-10 h-[120px] w-[400px] -rotate-[60deg] bg-glow blur-[100px]"></div>
+                        <div class="blur-4xl absolute -right-20 top-72 -z-10 h-[100px] w-[550px] -rotate-[60deg] bg-glow blur-[120px]"></div>
+                        <div class="w-full px-4 py-4">
+                            <div class="flex min-h-[72px] flex-wrap items-center justify-center gap-4 rounded-xl bg-white bg-opacity-5 py-4 px-8 md:justify-between">
+                                <div class="flex items-center gap-5">
+                                    <div class="flex cursor-pointer items-center transition-opacity hover:opacity-60">
+                                        <svg viewBox="0 0 454 70" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline-block h-6">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M37.563 22.9245L32.2137 17.618C32.1426 17.5471 32.0922 17.4581 32.0678 17.3606C32.0434 17.2632 32.0461 17.1609 32.0754 17.0648L37.3307 0.384725C37.3664 0.273028 37.4366 0.175567 37.5313 0.106416C37.6261 0.0372651 37.7403 0 37.8575 0C37.9748 0 38.0891 0.0372651 38.1838 0.106416C38.2785 0.175567 38.3487 0.273028 38.3844 0.384725L43.778 17.022C43.8073 17.118 43.81 17.2203 43.7856 17.3178C43.7612 17.4152 43.7108 17.5042 43.6397 17.5752L38.3333 22.9245C38.2301 23.0246 38.0919 23.0806 37.9481 23.0806C37.8043 23.0806 37.6662 23.0246 37.563 22.9245ZM20.0202 29.2143L3.38473 34.6079C3.27304 34.6436 3.17557 34.7139 3.10642 34.8086C3.03727 34.9033 3 35.0176 3 35.1348C3 35.2521 3.03727 35.3663 3.10642 35.461C3.17557 35.5558 3.27304 35.626 3.38473 35.6618L20.0645 40.9171C20.1606 40.9464 20.2628 40.9491 20.3603 40.9247C20.4578 40.9003 20.5467 40.8499 20.6177 40.7788L25.9241 35.428C25.9755 35.3767 26.0163 35.3156 26.0441 35.2485C26.072 35.1813 26.0863 35.1093 26.0863 35.0367C26.0863 34.964 26.072 34.892 26.0441 34.8248C26.0163 34.7576 25.9755 34.6966 25.9241 34.6453L20.5734 29.3388C20.5009 29.2698 20.411 29.2218 20.3134 29.1999C20.2157 29.1779 20.1139 29.1829 20.0188 29.2143H20.0202ZM50.0759 35.3368L55.4266 40.6432C55.4975 40.7144 55.5865 40.7648 55.684 40.7892C55.7814 40.8135 55.8837 40.8109 55.9797 40.7815L72.6153 35.3879C72.727 35.3522 72.8244 35.2819 72.8936 35.1872C72.9627 35.0925 73 34.9783 73 34.861C73 34.7437 72.9627 34.6295 72.8936 34.5348C72.8244 34.4401 72.727 34.3698 72.6153 34.3341L55.9355 29.0788C55.8394 29.0494 55.7372 29.0468 55.6397 29.0712C55.5422 29.0955 55.4533 29.146 55.3823 29.2171L50.0759 34.5678C49.9762 34.671 49.9205 34.8088 49.9205 34.9523C49.9205 35.0957 49.9762 35.2336 50.0759 35.3368ZM37.6612 47.0686L32.3548 52.4179C32.2822 52.4897 32.2309 52.5801 32.2064 52.6792C32.182 52.7783 32.1855 52.8822 32.2165 52.9794L37.61 69.6153C37.6457 69.727 37.716 69.8244 37.8107 69.8936C37.9054 69.9627 38.0196 70 38.1369 70C38.2542 70 38.3684 69.9627 38.4631 69.8936C38.5578 69.8244 38.6281 69.727 38.6638 69.6153L43.919 52.9352C43.9484 52.8391 43.951 52.7368 43.9267 52.6394C43.9023 52.5419 43.8518 52.4529 43.7807 52.382L38.4301 47.0755C38.3277 46.975 38.1902 46.9183 38.0467 46.9173C37.9033 46.9162 37.765 46.971 37.6612 47.07V47.0686Z" fill="white"></path>
+                                            <path d="M117.955 62.4578C113.288 62.4578 109.066 61.2916 105.288 58.9591C101.555 56.576 98.6219 53.3308 96.4885 49.2237C94.3552 45.0658 93.2886 40.4009 93.2886 35.2289C93.2886 30.0569 94.3552 25.4174 96.4885 21.3102C98.6219 17.1524 101.577 13.9072 105.355 11.5747C109.133 9.19158 113.355 8 118.022 8C121.666 8 124.999 8.70988 128.022 10.1296C131.044 11.4987 133.621 13.5523 135.755 16.2904L131.422 21.082C127.91 16.8735 123.533 14.7692 118.288 14.7692C114.822 14.7692 111.688 15.6565 108.888 17.4312C106.088 19.2059 103.888 21.6652 102.288 24.8089C100.733 27.902 99.9552 31.3753 99.9552 35.2289C99.9552 39.0825 100.733 42.5812 102.288 45.725C103.888 48.818 106.088 51.2519 108.888 53.0266C111.688 54.8013 114.822 55.6886 118.288 55.6886C123.488 55.6886 127.866 53.559 131.422 49.2997L135.755 54.0914C133.621 56.8295 131.022 58.9084 127.955 60.3282C124.933 61.748 121.599 62.4578 117.955 62.4578Z" fill="white"></path>
+                                            <path d="M173.41 42.4545H164.648H153.277L150.943 48.5391L145.81 61.8494H138.943L160.076 8.60846H166.676L187.876 61.8494H180.876L173.41 42.4545ZM173.41 42.4545L163.343 16.3664L153.277 42.4545H173.41Z" fill="white"></path>
+                                            <path d="M226.037 61.8494L215.971 45.4968C214.726 45.5982 213.748 45.6489 213.037 45.6489H201.504V61.8494H194.838V8.60846H213.037C219.082 8.60846 223.837 10.2564 227.304 13.5523C230.77 16.8481 232.504 21.3863 232.504 27.1667C232.504 31.2739 231.615 34.7726 229.837 37.6628C228.059 40.553 225.526 42.6573 222.237 43.9756L233.304 61.8494H226.037ZM212.837 39.184C217.06 39.184 220.282 38.1445 222.504 36.0656C224.726 33.9866 225.837 31.0203 225.837 27.1667C225.837 23.3131 224.726 20.3722 222.504 18.3439C220.282 16.265 217.06 15.2255 212.837 15.2255H201.504V39.184H212.837Z" fill="white"></path>
+                                            <path d="M243.275 8.60846H262.941C267.874 8.60846 272.252 9.72399 276.074 11.955C279.896 14.1861 282.852 17.3298 284.941 21.3863C287.074 25.392 288.141 30.0062 288.141 35.2289C288.141 40.4516 287.074 45.0912 284.941 49.1476C282.852 53.1534 279.896 56.2718 276.074 58.5028C272.252 60.7338 267.874 61.8494 262.941 61.8494H243.275V8.60846ZM262.541 55.2323C266.319 55.2323 269.63 54.3956 272.474 52.7224C275.363 51.0491 277.585 48.7166 279.141 45.725C280.696 42.6826 281.474 39.184 281.474 35.2289C281.474 31.2739 280.696 27.8005 279.141 24.8089C277.585 21.7666 275.363 19.4088 272.474 17.7355C269.63 16.0622 266.319 15.2255 262.541 15.2255H249.941V55.2323H262.541Z" fill="white"></path>
+                                            <path d="M298.352 8.60846H305.019V61.8494H298.352V8.60846Z" fill="white"></path>
+                                            <path d="M359.123 8.60846V61.8494H353.656L325.656 22.1469V61.8494H318.99V8.60846H324.456L352.456 48.311V8.60846H359.123Z" fill="white"></path>
+                                            <path d="M400.491 42.4545H380.357L372.891 61.8494H366.024L387.157 8.60846H393.757L414.957 61.8494H407.957L400.491 42.4545ZM400.491 42.4545L390.424 16.3664L380.357 42.4545H400.491Z" fill="white"></path>
+                                            <path d="M421.918 8.60846H428.585V55.2323H453.852V61.8494H421.918V8.60846Z" fill="white"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="relative lg:absolute lg:left-1/2 lg:-translate-x-1/2"></div>
+                                <div class="flex-5 flex items-center justify-end gap-6">
+                                    <style data-emotion="css 2attqf">
+                                        .css-2attqf {
+                                            white-space: break-spaces;
+                                        }
+                                    </style>
+                                    <div class="flex items-center justify-center gap-1 rounded-xl border-[0px] border-border bg-white bg-opacity-10 px-3 py-2 transition-all text-xs cursor-pointer hover:bg-opacity-5 css-2attqf">
+                                        <svg style="height:12px" width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 0C1.34315 0 0 1.34315 0 3V17C0 18.6569 1.34315 20 3 20H17C18.6569 20 20 18.6569 20 17V15.8293C21.1652 15.4175 22 14.3062 22 13V11C22 9.69378 21.1652 8.58254 20 8.17071V7C20 5.34315 18.6569 4 17 4V3C17 1.34315 15.6569 0 14 0H3ZM3 2C2.44772 2 2 2.44772 2 3C2 3.55228 2.44772 4 3 4H15V3C15 2.44772 14.5523 2 14 2H3ZM2 5.82929V17C2 17.5523 2.44772 18 3 18H17C17.5523 18 18 17.5523 18 17V16H15C13.3431 16 12 14.6569 12 13V11C12 9.34315 13.3431 8 15 8H18V7C18 6.44772 17.5523 6 17 6H3C2.64936 6 2.31278 5.93985 2 5.82929ZM15 10C14.4477 10 14 10.4477 14 11V13C14 13.5523 14.4477 14 15 14H19C19.5523 14 20 13.5523 20 13V11C20 10.4477 19.5523 10 19 10H15Z" fill="white"></path>
+                                        </svg>
+                                        Connect wallet
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap justify-between gap-10 px-8 py-24 text-sm md:px-16">
+                            <div class="flex flex-col gap-2">
+                                <div class="text-5xl text-light-0">NFT Rental Marketplace</div>
+                                <div class="text-lg text-medium-3">
+                                    The first NFT Rental Marketplace on Solana. <br/>
+                                    Hold the <b>actual NFT</b>
+                                    and access its utility for the duration rented.
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-end justify-end gap-5 ">
+                                <div class="flex items-center gap-2 lg:gap-6">
+                                    <div class="text-lg text-medium-3">Are you a collection owner?</div>
+                                    <div class="flex cursor-pointer items-center gap-1 rounded-lg bg-primary p-3 text-light-0 transition-colors hover:bg-primary-hover">
+                                        Add your collection
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M24 0H0V24H24V0Z" fill="white" fill-opacity="0.01"></path>
+                                            <path d="M12.0303 5L12.012 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="flex w-fit gap-3 rounded-xl border-[2px] border-border p-4">
+                                    <div class="flex items-center gap-2">
+                                        <div class="text-medium-3">Total rentals</div>
+                                        <div class="text-light-0">
+                                            <div class="mt-[1px] h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                        </div>
+                                    </div>
+                                    <div class="w-[2px] bg-border"></div>
+                                    <div class="flex items-center gap-2">
+                                        <div class="text-medium-3">Listed rentals</div>
+                                        <div class="text-light-0">
+                                            <div class="mt-[1px] h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mx-auto flex flex-col gap-16 px-8 md:px-16">
+                        <div>
+                            <div class="flex flex-col gap-2">
+                                <div class="flex items-center justify-between">
+                                    <div class="mb-6 text-lg text-medium-3"></div>
+                                    <div class="mb-6 flex justify-end">
+                                        <div class="flex rounded-lg border-[1px] border-border bg-dark-4">
+                                            <div class="flex items-center justify-between rounded-lg px-5 py-2 text-sm text-light-0 transition-colors cursor-pointer hover:text-primary bg-dark-6 css-1xdhyk6" aria-label="">
+                                                <div>
+                                                    <svg width="15" height="15" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 1.18017e-06C1.34315 1.25259e-06 -9.0294e-07 1.34315 -8.30516e-07 3L-5.68248e-07 9C-5.44107e-07 9.55229 0.447715 10 0.999999 10L9 10C9.55228 10 10 9.55229 10 9L10 1C10 0.447717 9.55228 8.93759e-07 9 9.179e-07L3 1.18017e-06ZM2 3C2 2.44772 2.44771 2 3 2L8 2L8 8L2 8L2 3Z" fill="white"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19 22C20.6569 22 22 20.6569 22 19L22 13C22 12.4477 21.5523 12 21 12L13 12C12.4477 12 12 12.4477 12 13L12 21C12 21.5523 12.4477 22 13 22L19 22ZM20 19C20 19.5523 19.5523 20 19 20L14 20L14 14L20 14L20 19Z" fill="white"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22 9C22 9.55228 21.5523 10 21 10L13 10C12.4477 10 12 9.55229 12 9L12 1C12 0.447717 12.4477 7.67195e-07 13 7.43054e-07L19 4.80786e-07C20.6569 4.08362e-07 22 1.34315 22 3L22 9ZM20 8L20 3C20 2.44772 19.5523 2 19 2L14 2L14 8L20 8Z" fill="white"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12C0.447715 12 -4.17544e-07 12.4477 -3.93402e-07 13L-1.31134e-07 19C-5.87108e-08 20.6569 1.34315 22 3 22L9 22C9.55228 22 10 21.5523 10 21L10 13C10 12.4477 9.55228 12 9 12L1 12ZM2 19L2 14L8 14L8 20L3 20C2.44772 20 2 19.5523 2 19Z" fill="white"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <style data-emotion="css 1e2dcm1">
+                                                .css-1e2dcm1 {
+                                                    z-index: 1500;
+                                                    pointer-events: none;
+                                                }
+                                            </style>
+                                            <style data-emotion="css okvapm">
+                                                .css-okvapm {
+                                                    z-index: 1500;
+                                                    pointer-events: none;
+                                                }
+                                            </style>
+                                            <div class="flex items-center justify-between rounded-lg px-5 py-2 text-sm text-light-0 transition-colors cursor-pointer hover:text-primary  css-1xdhyk6" aria-label="">
+                                                <div>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <style data-emotion="css 1e2dcm1">
+                                                .css-1e2dcm1 {
+                                                    z-index: 1500;
+                                                    pointer-events: none;
+                                                }
+                                            </style>
+                                            <style data-emotion="css okvapm">
+                                                .css-okvapm {
+                                                    z-index: 1500;
+                                                    pointer-events: none;
+                                                }
+                                            </style>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="grid grid-cols-1 flex-wrap gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                                    <style data-emotion="css 14akyxt">
+                                        .css-14akyxt:hover {
+                                            background: rgba(186,42,13,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-14akyxt relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="absolute z-20 rounded-md bg-dark-5 px-2 py-1 text-sm right-6 top-6">
+                                            <span class="text-primary">🔥 Trending</span>
+                                        </div>
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css r4zwgw">
+                                                .css-r4zwgw {
+                                                    background: rgba(186,42,13,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-r4zwgw">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/miniroyale.png" alt="miniroyale"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Mini Royale</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 8kqczw">
+                                        .css-8kqczw:hover {
+                                            background: rgba(212,14,153,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-8kqczw relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="absolute z-20 rounded-md bg-dark-5 px-2 py-1 text-sm right-6 top-6">
+                                            <span class="text-primary">🔥 Trending</span>
+                                        </div>
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 6h56sw">
+                                                .css-6h56sw {
+                                                    background: rgba(212,14,153,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center p-8 css-6h56sw">
+                                                <img class="h-full max-h-full rounded-xl p-3" src="main/logos/solrarity.png" alt="solrarity"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">SolRarity Rarikeys</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 1mujwju">
+                                        .css-1mujwju:hover {
+                                            background: rgba(128,221,239,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-1mujwju relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1nmyhj6">
+                                                .css-1nmyhj6 {
+                                                    background: rgba(128,221,239,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center p-8 css-1nmyhj6">
+                                                <img class="h-full max-h-full rounded-xl p-3" src="{% static 'main/logos/portals.svg' %}" alt="portals"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Portals</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 1xn6ifq">
+                                        .css-1xn6ifq:hover {
+                                            background: rgba(204,205,255,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-1xn6ifq relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1deult0">
+                                                .css-1deult0 {
+                                                    background: rgba(204,205,255,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-1deult0">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/smb-large.png" alt="smb"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Solana Monkey Business</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css l7sk2g">
+                                        .css-l7sk2g:hover {
+                                            background: rgba(224,178,61,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-l7sk2g relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 5tvjrb">
+                                                .css-5tvjrb {
+                                                    background: rgba(224,178,61,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center p-8 css-5tvjrb">
+                                                <img class="h-full max-h-full rounded-xl p-3" src="main/logos/degenape.png" alt="degenape"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Degenerate Ape Academy</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css xxqg9q">
+                                        .css-xxqg9q:hover {
+                                            background: rgba(147,195,77,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-xxqg9q relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css wcsq6y">
+                                                .css-wcsq6y {
+                                                    background: rgba(147,195,77,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-wcsq6y">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="mainmain/logos/scalpempire.png" alt="scalpempire"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Scalp Empire</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 13xqgp1">
+                                        .css-13xqgp1:hover {
+                                            background: rgba(0,94,255,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-13xqgp1 relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css ibv6q3">
+                                                .css-ibv6q3 {
+                                                    background: rgba(0,94,255,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-ibv6q3">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/parcl.gif" alt="hoa"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Homeowners Association (Parcl)</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 19in2pi">
+                                        .css-19in2pi:hover {
+                                            background: rgba(205,147,115,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-19in2pi relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 14urp2q">
+                                                .css-14urp2q {
+                                                    background: rgba(205,147,115,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center p-8 css-14urp2q">
+                                                <img class="h-full max-h-full rounded-xl p-3" src="main/logos/defiland.svg" alt="defiland"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">DeFi Land</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css s1usqq">
+                                        .css-s1usqq:hover {
+                                            background: rgba(73,203,222,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-s1usqq relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css lc241v">
+                                                .css-lc241v {
+                                                    background: rgba(73,203,222,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-lc241v">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/serum-surfers.png" alt="serum-surfers"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Serum Surfers</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 1pcvqua">
+                                        .css-1pcvqua:hover {
+                                            background: rgba(63,176,232,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-1pcvqua relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1wdxwtl">
+                                                .css-1wdxwtl {
+                                                    background: rgba(63,176,232,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-1wdxwtl">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/soultools.png" alt="soultools"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">SOuLTools</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css vsb9c5">
+                                        .css-vsb9c5:hover {
+                                            background: rgba(136,99,212,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-vsb9c5 relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1i8ib8r">
+                                                .css-1i8ib8r {
+                                                    background: rgba(136,99,212,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-1i8ib8r">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/nftsoloist.png" alt="nftsoloist"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">NFTSoloist Genesis Pass</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css djv9qg">
+                                        .css-djv9qg:hover {
+                                            background: rgba(99,167,212,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-djv9qg relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1y9562a">
+                                                .css-1y9562a {
+                                                    background: rgba(99,167,212,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-1y9562a">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/smartseasociety.png" alt="smartseasociety"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Smart Sea Society</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 flex items-center justify-center text-xl">
+                                    <style data-emotion="css 2attqf">
+                                        .css-2attqf {
+                                            white-space: break-spaces;
+                                        }
+                                    </style>
+                                    <div class="flex items-center justify-center gap-1 rounded-xl border-[0px] border-border bg-white bg-opacity-10 px-3 py-2 transition-all undefined cursor-pointer hover:bg-opacity-5 css-2attqf">
+                                        <div class="flex items-center px-2">
+                                            <div>See all</div>
+                                            <div class="text-2xl">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex flex-col gap-2">
+                                <div class="text-5xl text-light-0">Featured Profiles</div>
+                                <div class="flex items-center justify-between">
+                                    <div class="mb-6 text-lg text-medium-3">Treasuries or guilds listing assets across multiple collections.
+                                    <!-- -->
+                                    </div>
+                                    <div class="mb-6 flex justify-end">
+                                        <div class="flex rounded-lg border-[1px] border-border bg-dark-4">
+                                            <div class="flex items-center justify-between rounded-lg px-5 py-2 text-sm text-light-0 transition-colors cursor-pointer hover:text-primary bg-dark-6 css-1xdhyk6" aria-label="">
+                                                <div>
+                                                    <svg width="15" height="15" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 1.18017e-06C1.34315 1.25259e-06 -9.0294e-07 1.34315 -8.30516e-07 3L-5.68248e-07 9C-5.44107e-07 9.55229 0.447715 10 0.999999 10L9 10C9.55228 10 10 9.55229 10 9L10 1C10 0.447717 9.55228 8.93759e-07 9 9.179e-07L3 1.18017e-06ZM2 3C2 2.44772 2.44771 2 3 2L8 2L8 8L2 8L2 3Z" fill="white"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19 22C20.6569 22 22 20.6569 22 19L22 13C22 12.4477 21.5523 12 21 12L13 12C12.4477 12 12 12.4477 12 13L12 21C12 21.5523 12.4477 22 13 22L19 22ZM20 19C20 19.5523 19.5523 20 19 20L14 20L14 14L20 14L20 19Z" fill="white"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M22 9C22 9.55228 21.5523 10 21 10L13 10C12.4477 10 12 9.55229 12 9L12 1C12 0.447717 12.4477 7.67195e-07 13 7.43054e-07L19 4.80786e-07C20.6569 4.08362e-07 22 1.34315 22 3L22 9ZM20 8L20 3C20 2.44772 19.5523 2 19 2L14 2L14 8L20 8Z" fill="white"></path>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12C0.447715 12 -4.17544e-07 12.4477 -3.93402e-07 13L-1.31134e-07 19C-5.87108e-08 20.6569 1.34315 22 3 22L9 22C9.55228 22 10 21.5523 10 21L10 13C10 12.4477 9.55228 12 9 12L1 12ZM2 19L2 14L8 14L8 20L3 20C2.44772 20 2 19.5523 2 19Z" fill="white"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <style data-emotion="css 1e2dcm1">
+                                                .css-1e2dcm1 {
+                                                    z-index: 1500;
+                                                    pointer-events: none;
+                                                }
+                                            </style>
+                                            <style data-emotion="css okvapm">
+                                                .css-okvapm {
+                                                    z-index: 1500;
+                                                    pointer-events: none;
+                                                }
+                                            </style>
+                                            <div class="flex items-center justify-between rounded-lg px-5 py-2 text-sm text-light-0 transition-colors cursor-pointer hover:text-primary  css-1xdhyk6" aria-label="">
+                                                <div>
+                                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="text-xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <style data-emotion="css 1e2dcm1">
+                                                .css-1e2dcm1 {
+                                                    z-index: 1500;
+                                                    pointer-events: none;
+                                                }
+                                            </style>
+                                            <style data-emotion="css okvapm">
+                                                .css-okvapm {
+                                                    z-index: 1500;
+                                                    pointer-events: none;
+                                                }
+                                            </style>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="grid grid-cols-1 flex-wrap gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                                    <style data-emotion="css 1f2fib0">
+                                        .css-1f2fib0:hover {
+                                            background: rgba(249,231,201,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-1f2fib0 relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="absolute z-20 rounded-md bg-dark-5 px-2 py-1 text-sm right-6 top-6">
+                                            <span class="text-primary">🔥 Trending</span>
+                                        </div>
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 5aoqrk">
+                                                .css-5aoqrk {
+                                                    background: rgba(249,231,201,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-5aoqrk">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="logos/udderchaos-logo.png" alt="udderchaos"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Udder Chaos</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 1dy17ef">
+                                        .css-1dy17ef:hover {
+                                            background: rgba(255,255,255,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-1dy17ef relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css pqe8h0">
+                                                .css-pqe8h0 {
+                                                    background: rgba(255,255,255,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-pqe8h0">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="logos/the-unveiled.png" alt="the-unveiled"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">The Unveiled</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css q6yv3k">
+                                        .css-q6yv3k:hover {
+                                            background: rgba(57,127,214,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-q6yv3k relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 17g0z7q">
+                                                .css-17g0z7q {
+                                                    background: rgba(57,127,214,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-17g0z7q">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="logos/fatcats.png" alt="fatcats"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Fatcats</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css myyp1f">
+                                        .css-myyp1f:hover {
+                                            background: rgba(52,101,155,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-myyp1f relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css fsk8f7">
+                                                .css-fsk8f7 {
+                                                    background: rgba(52,101,155,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center p-8 css-fsk8f7">
+                                                <img class="h-full max-h-full rounded-xl p-3" src="https://images.squarespace-cdn.com/content/v1/618b2aec73c8ed19abf2fd2f/c4a759b4-91d5-462a-bd6d-ce3766ffda2f/3D+Gamers+Logo+with+white+letters+white+text.png?format=1500w" alt="3dgamersguild"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">3D Gamers Guild</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css iqg6mc">
+                                        .css-iqg6mc:hover {
+                                            background: rgba(161,70,19,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-iqg6mc relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1gor8up">
+                                                .css-1gor8up {
+                                                    background: rgba(161,70,19,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center p-8 css-1gor8up">
+                                                <img class="h-full max-h-full rounded-xl p-3" src="logos/solanapuppypound.png" alt="solanapuppypound"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Solana Puppy Pound</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 1iihubn">
+                                        .css-1iihubn:hover {
+                                            background: rgba(254,93,159,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-1iihubn relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1b9wi9u">
+                                                .css-1b9wi9u {
+                                                    background: rgba(254,93,159,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-1b9wi9u">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="logos/monkettes.png" alt="monkettes"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">The Monkettes</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css ksgch">
+                                        .css-ksgch:hover {
+                                            background: rgba(255,121,33,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-ksgch relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css fxh6kw">
+                                                .css-fxh6kw {
+                                                    background: rgba(255,121,33,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-fxh6kw">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="logos/thedegenerates.png" alt="thedegenerates"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">The Degenerates</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 10o9hu4">
+                                        .css-10o9hu4:hover {
+                                            background: rgba(164,94,229,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-10o9hu4 relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1sdey0d">
+                                                .css-1sdey0d {
+                                                    background: rgba(164,94,229,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-1sdey0d">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="logos/syndicate-initiative.png" alt="syndicate-initiative"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">SyNdicate Initiative</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 19tax6a">
+                                        .css-19tax6a:hover {
+                                            background: rgba(152,31,43,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-19tax6a relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1cq32q0">
+                                                .css-1cq32q0 {
+                                                    background: rgba(152,31,43,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-1cq32q0">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/droid.png" alt="droidcapital"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Droid Capital</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css f750gd">
+                                        .css-f750gd:hover {
+                                            background: rgba(231,0,27,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-f750gd relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1olhah">
+                                                .css-1olhah {
+                                                    background: rgba(231,0,27,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-1olhah">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/metakitchen.png" alt="metakitchen"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">MetaKitchen</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 1hiz4ho">
+                                        .css-1hiz4ho:hover {
+                                            background: rgba(252,179,22,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-1hiz4ho relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1xaxd3f">
+                                                .css-1xaxd3f {
+                                                    background: rgba(252,179,22,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-1xaxd3f">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/soliendao.png" alt="soliendao"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Solien DAO</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style data-emotion="css 1hiz4ho">
+                                        .css-1hiz4ho:hover {
+                                            background: rgba(252,179,22,0.2);
+                                        }
+                                    </style>
+                                    <div class="bg-opacity-1 cursor-pointer transition-colors css-1hiz4ho relative flex flex-col gap-2 rounded-lg border-[1px] border-border bg-white bg-opacity-5 p-4">
+                                        <div class="aspect-square w-full overflow-hidden rounded-xl">
+                                            <style data-emotion="css 1xaxd3f">
+                                                .css-1xaxd3f {
+                                                    background: rgba(252,179,22,0.2);
+                                                }
+                                            </style>
+                                            <div class="flex h-full w-full items-center justify-center undefined css-1xaxd3f">
+                                                <img class="h-full max-h-full rounded-xl undefined" src="main/logos/degenclub15k.jpg" alt="degenclub15k"/>
+                                            </div>
+                                        </div>
+                                        <div class="text-lg text-white">
+                                            <div class="overflow-hidden text-ellipsis whitespace-nowrap">Degen Club 15K</div>
+                                        </div>
+                                        <div class="mt-2 grow">
+                                            <div class="flex w-full justify-evenly rounded-lg bg-dark-6 py-2">
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Total rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="h-full w-[2px] bg-border"></div>
+                                                </div>
+                                                <div class="flex w-full justify-center">
+                                                    <div class="flex w-full flex-col items-center gap-[2px] text-medium-4">
+                                                        <div>Listed rentals</div>
+                                                        <div class="text-light-0">
+                                                            <div class="mt-1 h-5 w-12 animate-pulse rounded-md bg-border"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-3 flex items-center justify-center text-xl">
+                                    <style data-emotion="css 2attqf">
+                                        .css-2attqf {
+                                            white-space: break-spaces;
+                                        }
+                                    </style>
+                                    <div class="flex items-center justify-center gap-1 rounded-xl border-[0px] border-border bg-white bg-opacity-10 px-3 py-2 transition-all undefined cursor-pointer hover:bg-opacity-5 css-2attqf">
+                                        <div class="flex items-center px-2">
+                                            <div>See all</div>
+                                            <div class="text-2xl">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-24 px-8 md:px-16">
+                        <div class="mb-10">
+                            <div class="mb-6 flex justify-center text-center text-4xl text-light-0">Renting a Token</div>
+                            <div class="grid w-full grid-cols-1 flex-wrap gap-4  md:grid-cols-3">
+                                <div class="min-h-80 flex flex-col items-center rounded-3xl bg-white bg-opacity-5 py-12 px-4 xl:px-24">
+                                    <div class="relative h-fit w-fit overflow-visible">
+                                        <style data-emotion="css 1x48mth">
+                                            .css-1x48mth {
+                                                opacity: 0.7;
+                                                -webkit-filter: blur(20px);
+                                                filter: blur(20px);
+                                                -webkit-transform: rotate(35.64deg) scale(3);
+                                                -moz-transform: rotate(35.64deg) scale(3);
+                                                -ms-transform: rotate(35.64deg) scale(3);
+                                                transform: rotate(35.64deg) scale(3);
+                                            }
+                                        </style>
+                                        <div class="absolute left-1/4 top-0 h-full w-1/2 rounded-full bg-glow undefined css-1x48mth"></div>
+                                        <div class="relative">
+                                            <style data-emotion="css djsaz9">
+                                                .css-djsaz9 {
+                                                    background: linear-gradient( 180deg, rgba(184, 95, 255, 0.25) 0%, rgba(184, 95, 255, 0) 100% );
+                                                    box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.1) inset;
+                                                }
+                                            </style>
+                                            <div class="flex h-16 w-16 items-center justify-center rounded-2xl p-3 css-djsaz9">
+                                                <svg width="38" height="30" viewBox="0 0 38 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9998 15.0002C34.0499 15.0002 37.3332 11.7169 37.3332 7.66683C37.3332 3.61674 34.0499 0.333496 29.9998 0.333496C25.9497 0.333496 22.6665 3.61674 22.6665 7.66683C22.6665 11.7169 25.9497 15.0002 29.9998 15.0002ZM0.666504 7.66683H3.91481C4.19073 7.66683 4.46367 7.72392 4.71645 7.83452L15.814 12.6897C17.5773 13.4611 18.3882 15.5106 17.63 17.2798C17.5149 17.5483 17.3703 17.7951 17.2015 18.0179L22.1772 21.1722C23.7046 21.9359 25.3889 22.3335 27.0966 22.3335H29.9998C32.0249 22.3335 33.6665 23.9751 33.6665 26.0002C33.6665 28.0252 32.0249 29.6668 29.9998 29.6668H15.1288C12.8519 29.6668 10.6062 29.1367 8.5697 28.1184L0.666504 24.1668V7.66683Z" fill="#CE81F4"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-4 text-center text-3xl text-light-0">Rent an NFT</div>
+                                    <div class="text-center text-medium-3">Browse our various collections and rent an NFT at its specified rate in just a few clicks</div>
+                                </div>
+                                <div class="min-h-80 flex flex-col items-center rounded-3xl bg-white bg-opacity-5 py-12 px-4 xl:px-24">
+                                    <div class="relative h-fit w-fit overflow-visible">
+                                        <style data-emotion="css 1x48mth">
+                                            .css-1x48mth {
+                                                opacity: 0.7;
+                                                -webkit-filter: blur(20px);
+                                                filter: blur(20px);
+                                                -webkit-transform: rotate(35.64deg) scale(3);
+                                                -moz-transform: rotate(35.64deg) scale(3);
+                                                -ms-transform: rotate(35.64deg) scale(3);
+                                                transform: rotate(35.64deg) scale(3);
+                                            }
+                                        </style>
+                                        <div class="absolute left-1/4 top-0 h-full w-1/2 rounded-full bg-glow undefined css-1x48mth"></div>
+                                        <div class="relative">
+                                            <style data-emotion="css djsaz9">
+                                                .css-djsaz9 {
+                                                    background: linear-gradient( 180deg, rgba(184, 95, 255, 0.25) 0%, rgba(184, 95, 255, 0) 100% );
+                                                    box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.1) inset;
+                                                }
+                                            </style>
+                                            <div class="flex h-16 w-16 items-center justify-center rounded-2xl p-3 css-djsaz9">
+                                                <svg width="38" height="32" viewBox="0 0 38 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.66675 0.333496H33.3334C35.5425 0.333496 37.3334 2.12436 37.3334 4.3335V17.6668C37.3334 18.2191 36.8857 18.6668 36.3334 18.6668H26.6667C24.4576 18.6668 22.6667 20.4577 22.6667 22.6668V28.6668C22.6667 29.2191 22.219 29.6668 21.6667 29.6668H4.66675C2.45761 29.6668 0.666748 27.876 0.666748 25.6668V4.3335C0.666748 2.12436 2.45761 0.333496 4.66675 0.333496ZM8.00008 5.83349C9.0126 5.83349 9.83341 6.65431 9.83341 7.66683C9.83341 8.67935 9.0126 9.50016 8.00008 9.50016C6.98756 9.50016 6.16675 8.67935 6.16675 7.66683C6.16675 6.65431 6.98756 5.83349 8.00008 5.83349ZM22.6667 15.0002C22.6667 12.9751 21.0251 11.3335 19.0001 11.3335C16.975 11.3335 15.3334 12.9751 15.3334 15.0002C15.3334 17.0252 16.975 18.6668 19.0001 18.6668C21.0251 18.6668 22.6667 17.0252 22.6667 15.0002ZM33.2084 22.3335C33.2084 21.5741 32.5928 20.9585 31.8334 20.9585C31.074 20.9585 30.4584 21.5741 30.4584 22.3335V24.6252H28.1667C27.4074 24.6252 26.7917 25.2408 26.7917 26.0002C26.7917 26.7596 27.4074 27.3752 28.1667 27.3752H30.4584V29.6668C30.4584 30.4262 31.074 31.0418 31.8334 31.0418C32.5928 31.0418 33.2084 30.4262 33.2084 29.6668V27.3752H35.5001C36.2595 27.3752 36.8751 26.7596 36.8751 26.0002C36.8751 25.2408 36.2595 24.6252 35.5001 24.6252H33.2084V22.3335Z" fill="#CE81F4"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-4 text-center text-3xl text-light-0">Access Utility</div>
+                                    <div class="text-center text-medium-3">Given that the actual NFT sits in your wallet while rented, you can access any utility it provides</div>
+                                </div>
+                                <div class="min-h-80 flex flex-col items-center rounded-3xl bg-white bg-opacity-5 py-12 px-4 xl:px-24">
+                                    <div class="relative h-fit w-fit overflow-visible">
+                                        <style data-emotion="css 1x48mth">
+                                            .css-1x48mth {
+                                                opacity: 0.7;
+                                                -webkit-filter: blur(20px);
+                                                filter: blur(20px);
+                                                -webkit-transform: rotate(35.64deg) scale(3);
+                                                -moz-transform: rotate(35.64deg) scale(3);
+                                                -ms-transform: rotate(35.64deg) scale(3);
+                                                transform: rotate(35.64deg) scale(3);
+                                            }
+                                        </style>
+                                        <div class="absolute left-1/4 top-0 h-full w-1/2 rounded-full bg-glow undefined css-1x48mth"></div>
+                                        <div class="relative">
+                                            <style data-emotion="css djsaz9">
+                                                .css-djsaz9 {
+                                                    background: linear-gradient( 180deg, rgba(184, 95, 255, 0.25) 0%, rgba(184, 95, 255, 0) 100% );
+                                                    box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.1) inset;
+                                                }
+                                            </style>
+                                            <div class="flex h-16 w-16 items-center justify-center rounded-2xl p-3 css-djsaz9">
+                                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9998 0.666504H29.9998C33.0774 0.666504 35.7122 2.56233 36.8001 5.24984H12.1995C13.2874 2.56233 15.9222 0.666504 18.9998 0.666504ZM0.666504 18.9998V26.3332H7.99984C10.0249 26.3332 11.6665 24.6915 11.6665 22.6665C11.6665 20.6415 10.0249 18.9998 7.99984 18.9998H0.666504ZM37.3332 7.99984H4.66651C2.45737 7.99984 0.666504 9.7907 0.666504 11.9998V16.2498H7.99984C11.5437 16.2498 14.4165 19.1227 14.4165 22.6665C14.4165 26.2103 11.5437 29.0832 7.99984 29.0832H0.666504V33.3332C0.666504 35.5423 2.45736 37.3332 4.6665 37.3332H33.3332C35.5423 37.3332 37.3332 35.5423 37.3332 33.3332V7.99984Z" fill="#CE81F4"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-4 text-center text-3xl text-light-0">Extend Duration</div>
+                                    <div class="text-center text-medium-3">Some rentals are extendable! In many cases, you can optionally pay to extend the rental &#x27;s duration</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb-6 mt-20 flex justify-center text-center text-4xl text-light-0">Listing a Token</div>
+                            <div class="grid w-full grid-cols-1 flex-wrap gap-4  md:grid-cols-3">
+                                <div class="min-h-80 flex flex-col items-center rounded-3xl bg-white bg-opacity-5 py-12 px-4 xl:px-24">
+                                    <div class="relative h-fit w-fit overflow-visible">
+                                        <style data-emotion="css 1x48mth">
+                                            .css-1x48mth {
+                                                opacity: 0.7;
+                                                -webkit-filter: blur(20px);
+                                                filter: blur(20px);
+                                                -webkit-transform: rotate(35.64deg) scale(3);
+                                                -moz-transform: rotate(35.64deg) scale(3);
+                                                -ms-transform: rotate(35.64deg) scale(3);
+                                                transform: rotate(35.64deg) scale(3);
+                                            }
+                                        </style>
+                                        <div class="absolute left-1/4 top-0 h-full w-1/2 rounded-full bg-accent undefined css-1x48mth"></div>
+                                        <div class="relative">
+                                            <style data-emotion="css 182ux5y">
+                                                .css-182ux5y {
+                                                    background: linear-gradient( 180deg, rgba(251, 192, 147, 0.25) 0%, rgba(184, 95, 255, 0) 100% );
+                                                    box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.1) inset;
+                                                }
+                                            </style>
+                                            <div class="flex h-16 w-16 items-center justify-center rounded-2xl p-3 css-182ux5y">
+                                                <svg width="38" height="30" viewBox="0 0 38 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9998 15.0002C34.0499 15.0002 37.3332 11.7169 37.3332 7.66683C37.3332 3.61674 34.0499 0.333496 29.9998 0.333496C25.9497 0.333496 22.6665 3.61674 22.6665 7.66683C22.6665 11.7169 25.9497 15.0002 29.9998 15.0002ZM0.666504 7.66683H3.91481C4.19073 7.66683 4.46367 7.72392 4.71645 7.83452L15.814 12.6897C17.5773 13.4611 18.3882 15.5106 17.63 17.2798C17.5149 17.5483 17.3703 17.7951 17.2015 18.0179L22.1772 21.1722C23.7046 21.9359 25.3889 22.3335 27.0966 22.3335H29.9998C32.0249 22.3335 33.6665 23.9751 33.6665 26.0002C33.6665 28.0252 32.0249 29.6668 29.9998 29.6668H15.1288C12.8519 29.6668 10.6062 29.1367 8.5697 28.1184L0.666504 24.1668V7.66683Z" fill="#FFA500"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-4 text-center text-3xl text-light-0">List your NFT</div>
+                                    <div class="text-center text-medium-3">Specify a price and rental parameters like expiration, duration or rate and list your NFT for rent</div>
+                                </div>
+                                <div class="min-h-80 flex flex-col items-center rounded-3xl bg-white bg-opacity-5 py-12 px-4 xl:px-24">
+                                    <div class="relative h-fit w-fit overflow-visible">
+                                        <style data-emotion="css 1x48mth">
+                                            .css-1x48mth {
+                                                opacity: 0.7;
+                                                -webkit-filter: blur(20px);
+                                                filter: blur(20px);
+                                                -webkit-transform: rotate(35.64deg) scale(3);
+                                                -moz-transform: rotate(35.64deg) scale(3);
+                                                -ms-transform: rotate(35.64deg) scale(3);
+                                                transform: rotate(35.64deg) scale(3);
+                                            }
+                                        </style>
+                                        <div class="absolute left-1/4 top-0 h-full w-1/2 rounded-full bg-accent undefined css-1x48mth"></div>
+                                        <div class="relative">
+                                            <style data-emotion="css 182ux5y">
+                                                .css-182ux5y {
+                                                    background: linear-gradient( 180deg, rgba(251, 192, 147, 0.25) 0%, rgba(184, 95, 255, 0) 100% );
+                                                    box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.1) inset;
+                                                }
+                                            </style>
+                                            <div class="flex h-16 w-16 items-center justify-center rounded-2xl p-3 css-182ux5y">
+                                                <svg width="38" height="32" viewBox="0 0 38 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.66675 0.333496H33.3334C35.5425 0.333496 37.3334 2.12436 37.3334 4.3335V17.6668C37.3334 18.2191 36.8857 18.6668 36.3334 18.6668H26.6667C24.4576 18.6668 22.6667 20.4577 22.6667 22.6668V28.6668C22.6667 29.2191 22.219 29.6668 21.6667 29.6668H4.66675C2.45761 29.6668 0.666748 27.876 0.666748 25.6668V4.3335C0.666748 2.12436 2.45761 0.333496 4.66675 0.333496ZM8.00008 5.83349C9.0126 5.83349 9.83341 6.65431 9.83341 7.66683C9.83341 8.67935 9.0126 9.50016 8.00008 9.50016C6.98756 9.50016 6.16675 8.67935 6.16675 7.66683C6.16675 6.65431 6.98756 5.83349 8.00008 5.83349ZM22.6667 15.0002C22.6667 12.9751 21.0251 11.3335 19.0001 11.3335C16.975 11.3335 15.3334 12.9751 15.3334 15.0002C15.3334 17.0252 16.975 18.6668 19.0001 18.6668C21.0251 18.6668 22.6667 17.0252 22.6667 15.0002ZM33.2084 22.3335C33.2084 21.5741 32.5928 20.9585 31.8334 20.9585C31.074 20.9585 30.4584 21.5741 30.4584 22.3335V24.6252H28.1667C27.4074 24.6252 26.7917 25.2408 26.7917 26.0002C26.7917 26.7596 27.4074 27.3752 28.1667 27.3752H30.4584V29.6668C30.4584 30.4262 31.074 31.0418 31.8334 31.0418C32.5928 31.0418 33.2084 30.4262 33.2084 29.6668V27.3752H35.5001C36.2595 27.3752 36.8751 26.7596 36.8751 26.0002C36.8751 25.2408 36.2595 24.6252 35.5001 24.6252H33.2084V22.3335Z" fill="#FFA500"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-4 text-center text-3xl text-light-0">Earn Passive Income</div>
+                                    <div class="text-center text-medium-3">Users can pay to hold your NFT until it is securely returned back to you at the end of the rental period</div>
+                                </div>
+                                <div class="min-h-80 flex flex-col items-center rounded-3xl bg-white bg-opacity-5 py-12 px-4 xl:px-24">
+                                    <div class="relative h-fit w-fit overflow-visible">
+                                        <style data-emotion="css 1x48mth">
+                                            .css-1x48mth {
+                                                opacity: 0.7;
+                                                -webkit-filter: blur(20px);
+                                                filter: blur(20px);
+                                                -webkit-transform: rotate(35.64deg) scale(3);
+                                                -moz-transform: rotate(35.64deg) scale(3);
+                                                -ms-transform: rotate(35.64deg) scale(3);
+                                                transform: rotate(35.64deg) scale(3);
+                                            }
+                                        </style>
+                                        <div class="absolute left-1/4 top-0 h-full w-1/2 rounded-full bg-accent undefined css-1x48mth"></div>
+                                        <div class="relative">
+                                            <style data-emotion="css 182ux5y">
+                                                .css-182ux5y {
+                                                    background: linear-gradient( 180deg, rgba(251, 192, 147, 0.25) 0%, rgba(184, 95, 255, 0) 100% );
+                                                    box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.1) inset;
+                                                }
+                                            </style>
+                                            <div class="flex h-16 w-16 items-center justify-center rounded-2xl p-3 css-182ux5y">
+                                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9998 0.666504H29.9998C33.0774 0.666504 35.7122 2.56233 36.8001 5.24984H12.1995C13.2874 2.56233 15.9222 0.666504 18.9998 0.666504ZM0.666504 18.9998V26.3332H7.99984C10.0249 26.3332 11.6665 24.6915 11.6665 22.6665C11.6665 20.6415 10.0249 18.9998 7.99984 18.9998H0.666504ZM37.3332 7.99984H4.66651C2.45737 7.99984 0.666504 9.7907 0.666504 11.9998V16.2498H7.99984C11.5437 16.2498 14.4165 19.1227 14.4165 22.6665C14.4165 26.2103 11.5437 29.0832 7.99984 29.0832H0.666504V33.3332C0.666504 35.5423 2.45736 37.3332 4.6665 37.3332H33.3332C35.5423 37.3332 37.3332 35.5423 37.3332 33.3332V7.99984Z" fill="#FFA500"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="my-4 text-center text-3xl text-light-0">Automatic Relisting</div>
+                                    <div class="text-center text-medium-3">Rentals are automatically relisted by default until a lister-specified max expiration is reached.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-14 w-full px-4 py-4">
+                        <div class="flex flex-col items-center justify-between gap-8 rounded-xl py-4 px-8 md:flex-row">
+                            <div class="flex gap-5 text-2xl text-gray-200 md:text-lg">
+                                <a href="https://discord.gg/byq6uNTugq" target="_blank" rel="noreferrer" class="transition-colors hover:text-primary">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/cardinal-labs" target="_blank" rel="noreferrer" class="transition-colors hover:text-primary">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                                    </svg>
+                                </a>
+                                <a href="https://cardinal-labs.medium.com/" target="_blank" rel="noreferrer" class="transition-colors hover:text-primary">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"></path>
+                                    </svg>
+                                </a>
+                                <a href="https://twitter.com/cardinal_labs" target="_blank" rel="noreferrer" class="transition-colors hover:text-primary">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="flex flex-col gap-8 text-center text-base text-medium-4 md:flex-row md:text-left">
+                                <a href="https://docs.cardinal.so/" target="_blank" rel="noreferrer" class="cursor-pointer transition-colors hover:text-primary">Documentation</a>
+                                <a href="https://github.com/cardinal-labs" target="_blank" rel="noreferrer" class="cursor-pointer transition-colors hover:text-primary">Github</a>
+                                <a href="mailto:team@cardinal.so" target="_blank" rel="noreferrer" class="cursor-pointer transition-colors hover:text-primary">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script id="__NEXT_DATA__" type="application/json">
+            {"props":{"config":{"name":"default","displayName":"Unverified","description":"This is an unverified collection. Feel free to use at your own risk, these NFTs may or may not be the real verified versions. Visit https://rent.cardinal.so and request to add a verified collection.","hidden":true,"type":"Collection","logoImage":"logos/default.png","hero":"logos/default-hero.png","websiteUrl":"https://cardinal.so","colors":{"accent":"#7560FF","glow":"#7560FF"},"indexMetadataDisabled":true,"rentalCard":{"invalidators":["rate","duration","expiration","manual"],"extensionOptions":{"showDisablePartialExtension":true},"invalidationOptions":{"maxDurationAllowed":{"displayText":"12 weeks","value":7258000}}},"airdrops":[{"name":"Origin Jambo","symbol":"JAMB","uri":"https://arweave.net/XBoDa9TqiOZeXW_6bV8wvieD8fMQS6IHxKipwdvduCo"},{"name":"Solana Monkey Business","symbol":"SMB","uri":"https://arweave.net/VjfB54_BbELJ5bc1kH-kddrXfq5noloSjkcvK2Odhh0"},{"name":"Degen Ape","symbol":"DAPE","uri":"https://arweave.net/mWra8rTxavmbCnqxs6KoWwa0gC9uM8NMeOsyVhDy0-E"},{"name":"Thugbirdz","symbol":"THUG","uri":"https://arweave.net/l9VXqVWCsiKW-R8ShX8jknFPgBibrhQI1JRgUI9uvbw"},{"name":"Turtles","symbol":"TRTL","uri":"https://arweave.net/KKbhlHaPMOB9yMm9yG_i7PxzK0y24I5C7gNTaRDI9OE"},{"name":"Almost Famous Pandas","symbol":"AFP","uri":"8cs7hpBcuiRbzcdUY5BHpCFCgv1m8JhpZEVHUkYTmhnA"},{"name":"Shi Guardians","symbol":"SHI","uri":"https://arweave.net/hSI4WIsX10yRWnzgXP8oqwSCaSgPfGU5nSN-Pxjslao"},{"name":"Hacker House","symbol":"HH","uri":"https://arweave.net/DLDhnabWSXzAYktEhEKyukt3GIfagj2rPpWncw-KDQo"},{"name":"21 Club","symbol":"21","uri":"https://bafkreicv3jj6oc53kid76mkk7hqsr6edrnhsydkw4do4vonq777sgfz3le.ipfs.dweb.link?ext=json"}]}},"page":"/[host]","query":{"host":"rent.cardinal.so"},"buildId":"rvRHpQHDOeow_Bn_u_0ms","isFallback":false,"appGip":true,"scriptLoader":[]}
+        </script>
+    </body>
+</html>
